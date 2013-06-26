@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface PongViewController : UIViewController
-
+{
+    NSTimer* timer;
+}
+-(void) timerUpdate;
 @property (strong, nonatomic) UIViewController* optionsViewController;
+@property (strong, nonatomic) NSTimer* timer;
 
 -(IBAction)switchToOptionsView:(id)sender;
 

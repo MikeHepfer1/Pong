@@ -14,14 +14,14 @@
 
 @implementation PongViewController
 
-@synthesize optionsViewController;
+@synthesize optionsViewController, timer;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-   
    // [self.navigationController.navigationBar set];
+    timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerUpdate) userInfo:nil repeats:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated
