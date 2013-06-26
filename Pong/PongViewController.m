@@ -14,7 +14,7 @@
 
 @implementation PongViewController
 
-@synthesize optionsViewController, timer;
+@synthesize optionsViewController, timer, timerLabel;
 
 - (void)viewDidLoad
 {
