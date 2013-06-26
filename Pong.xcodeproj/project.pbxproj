@@ -60,9 +60,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F57EA97177B880000F9AB2B /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				3FF9DFD5177B418700E4D35E /* OptionsViewController.h */,
+				3FF9DFD6177B418700E4D35E /* OptionsViewController.m */,
+				3FF9DFD7177B418700E4D35E /* OptionsViewController.xib */,
+			);
+			name = Options;
+			path = Pong;
+			sourceTree = "<group>";
+		};
 		3FF9DFA0177B3EE500E4D35E = {
 			isa = PBXGroup;
 			children = (
+				3F57EA97177B880000F9AB2B /* Options */,
 				3FF9DFB2177B3EE500E4D35E /* Pong */,
 				3FF9DFAB177B3EE500E4D35E /* Frameworks */,
 				3FF9DFAA177B3EE500E4D35E /* Products */,
@@ -94,9 +106,6 @@
 				3FF9DFBC177B3EE500E4D35E /* AppDelegate.m */,
 				3FF9DFC4177B3EE500E4D35E /* PongViewController.h */,
 				3FF9DFC5177B3EE500E4D35E /* PongViewController.m */,
-				3FF9DFD5177B418700E4D35E /* OptionsViewController.h */,
-				3FF9DFD6177B418700E4D35E /* OptionsViewController.m */,
-				3FF9DFD7177B418700E4D35E /* OptionsViewController.xib */,
 				3FF9DFC7177B3EE500E4D35E /* PongViewController_iPhone.xib */,
 				3FF9DFCA177B3EE500E4D35E /* PongViewController_iPad.xib */,
 				3FF9DFB3177B3EE500E4D35E /* Supporting Files */,

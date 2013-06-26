@@ -33,6 +33,7 @@
 {
 //    [self.navigationController setTitle:@"Options"];
     [self.navigationItem setTitle:@"Options"];
+    [self.navigationItem.leftBarButtonItem setTitle:@"Back"];
 }
 
 - (void)didReceiveMemoryWarning

@@ -26,7 +26,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    [self.view setBackgroundColor:[UIColor blackColor]];
+    [self.view setBackgroundColor:[UIColor darkGrayColor]];
     //config nav bar
     [self.navigationItem setTitle:@"Pong"];
     [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
@@ -36,8 +36,6 @@
     style: UIBarButtonItemStylePlain
      target:self action:@selector(switchToOptionsView:)];
     self.navigationItem.rightBarButtonItem = optionsButton;
-
-
 }
 
 -(IBAction)switchToOptionsView:(id)sender
@@ -47,6 +45,24 @@
     [self.navigationController setTitle:@"Options"];
     [self.navigationItem setTitle:@"Options"];
 }
+
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch* touch = [touches anyObject];
+    CGPoint touchPoint = [touch locationInView:self.view];
+    NSLog(@"touch: %f %f", touchPoint.x, touchPoint.y);
+}
+-(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch* touch = [touches anyObject];
+    CGPoint touchPoint = [touch locationInView:self.view];
+    NSLog(@"touch: %f %f", touchPoint.x, touchPoint.y);
+}
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning
 {
