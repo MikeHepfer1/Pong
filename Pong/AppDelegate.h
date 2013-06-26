@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class PongViewController;
 @class MainMenuVeiwController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -16,9 +16,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 
-@property (strong, nonatomic) ViewController *viewController;
-
-@property (strong, nonatomic) ViewController* optionsViewController;
+@property (strong, nonatomic) PongViewController *viewController;
 
 @property (strong, nonatomic) UINavigationController* navController;
 

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Mike Hepfer. All rights reserved.
 //
 
-#import "optionsViewController.h"
+#import "OptionsViewController.h"
 
-@interface optionsViewController ()
+@interface OptionsViewController ()
 
 @end
 
-@implementation optionsViewController
+@implementation OptionsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +27,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
+//    [self.navigationController setTitle:@"Options"];
+    [self.navigationItem setTitle:@"Options"];
 }
 
 - (void)didReceiveMemoryWarning

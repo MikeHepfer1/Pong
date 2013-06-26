@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PongViewController : UIViewController
+
+@property (strong, nonatomic) UIViewController* optionsViewController;
+
+-(IBAction)switchToOptionsView:(id)sender;
+
 
 @end

@@ -16,11 +16,11 @@
 		3FF9DFBF177B3EE500E4D35E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFBE177B3EE500E4D35E /* Default.png */; };
 		3FF9DFC1177B3EE500E4D35E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC0177B3EE500E4D35E /* Default@2x.png */; };
 		3FF9DFC3177B3EE500E4D35E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC2177B3EE500E4D35E /* Default-568h@2x.png */; };
-		3FF9DFC6177B3EE500E4D35E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC5177B3EE500E4D35E /* ViewController.m */; };
-		3FF9DFC9177B3EE500E4D35E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC7177B3EE500E4D35E /* ViewController_iPhone.xib */; };
-		3FF9DFCC177B3EE500E4D35E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFCA177B3EE500E4D35E /* ViewController_iPad.xib */; };
-		3FF9DFD8177B418700E4D35E /* optionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9DFD6177B418700E4D35E /* optionsViewController.m */; };
-		3FF9DFD9177B418700E4D35E /* optionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFD7177B418700E4D35E /* optionsViewController.xib */; };
+		3FF9DFC6177B3EE500E4D35E /* PongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC5177B3EE500E4D35E /* PongViewController.m */; };
+		3FF9DFC9177B3EE500E4D35E /* PongViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFC7177B3EE500E4D35E /* PongViewController_iPhone.xib */; };
+		3FF9DFCC177B3EE500E4D35E /* PongViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFCA177B3EE500E4D35E /* PongViewController_iPad.xib */; };
+		3FF9DFD8177B418700E4D35E /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF9DFD6177B418700E4D35E /* OptionsViewController.m */; };
+		3FF9DFD9177B418700E4D35E /* OptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FF9DFD7177B418700E4D35E /* OptionsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,13 +37,13 @@
 		3FF9DFBE177B3EE500E4D35E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3FF9DFC0177B3EE500E4D35E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3FF9DFC2177B3EE500E4D35E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		3FF9DFC4177B3EE500E4D35E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3FF9DFC5177B3EE500E4D35E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3FF9DFC8177B3EE500E4D35E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		3FF9DFCB177B3EE500E4D35E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		3FF9DFD5177B418700E4D35E /* optionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionsViewController.h; sourceTree = "<group>"; };
-		3FF9DFD6177B418700E4D35E /* optionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optionsViewController.m; sourceTree = "<group>"; };
-		3FF9DFD7177B418700E4D35E /* optionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = optionsViewController.xib; sourceTree = "<group>"; };
+		3FF9DFC4177B3EE500E4D35E /* PongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PongViewController.h; sourceTree = "<group>"; };
+		3FF9DFC5177B3EE500E4D35E /* PongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongViewController.m; sourceTree = "<group>"; };
+		3FF9DFC8177B3EE500E4D35E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PongViewController_iPhone.xib; sourceTree = "<group>"; };
+		3FF9DFCB177B3EE500E4D35E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PongViewController_iPad.xib; sourceTree = "<group>"; };
+		3FF9DFD5177B418700E4D35E /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		3FF9DFD6177B418700E4D35E /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		3FF9DFD7177B418700E4D35E /* OptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,13 +92,13 @@
 			children = (
 				3FF9DFBB177B3EE500E4D35E /* AppDelegate.h */,
 				3FF9DFBC177B3EE500E4D35E /* AppDelegate.m */,
-				3FF9DFC4177B3EE500E4D35E /* ViewController.h */,
-				3FF9DFC5177B3EE500E4D35E /* ViewController.m */,
-				3FF9DFD5177B418700E4D35E /* optionsViewController.h */,
-				3FF9DFD6177B418700E4D35E /* optionsViewController.m */,
-				3FF9DFD7177B418700E4D35E /* optionsViewController.xib */,
-				3FF9DFC7177B3EE500E4D35E /* ViewController_iPhone.xib */,
-				3FF9DFCA177B3EE500E4D35E /* ViewController_iPad.xib */,
+				3FF9DFC4177B3EE500E4D35E /* PongViewController.h */,
+				3FF9DFC5177B3EE500E4D35E /* PongViewController.m */,
+				3FF9DFD5177B418700E4D35E /* OptionsViewController.h */,
+				3FF9DFD6177B418700E4D35E /* OptionsViewController.m */,
+				3FF9DFD7177B418700E4D35E /* OptionsViewController.xib */,
+				3FF9DFC7177B3EE500E4D35E /* PongViewController_iPhone.xib */,
+				3FF9DFCA177B3EE500E4D35E /* PongViewController_iPad.xib */,
 				3FF9DFB3177B3EE500E4D35E /* Supporting Files */,
 			);
 			path = Pong;
@@ -173,9 +173,9 @@
 				3FF9DFBF177B3EE500E4D35E /* Default.png in Resources */,
 				3FF9DFC1177B3EE500E4D35E /* Default@2x.png in Resources */,
 				3FF9DFC3177B3EE500E4D35E /* Default-568h@2x.png in Resources */,
-				3FF9DFC9177B3EE500E4D35E /* ViewController_iPhone.xib in Resources */,
-				3FF9DFCC177B3EE500E4D35E /* ViewController_iPad.xib in Resources */,
-				3FF9DFD9177B418700E4D35E /* optionsViewController.xib in Resources */,
+				3FF9DFC9177B3EE500E4D35E /* PongViewController_iPhone.xib in Resources */,
+				3FF9DFCC177B3EE500E4D35E /* PongViewController_iPad.xib in Resources */,
+				3FF9DFD9177B418700E4D35E /* OptionsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,8 +188,8 @@
 			files = (
 				3FF9DFB9177B3EE500E4D35E /* main.m in Sources */,
 				3FF9DFBD177B3EE500E4D35E /* AppDelegate.m in Sources */,
-				3FF9DFC6177B3EE500E4D35E /* ViewController.m in Sources */,
-				3FF9DFD8177B418700E4D35E /* optionsViewController.m in Sources */,
+				3FF9DFC6177B3EE500E4D35E /* PongViewController.m in Sources */,
+				3FF9DFD8177B418700E4D35E /* OptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,20 +204,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3FF9DFC7177B3EE500E4D35E /* ViewController_iPhone.xib */ = {
+		3FF9DFC7177B3EE500E4D35E /* PongViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3FF9DFC8177B3EE500E4D35E /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = PongViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		3FF9DFCA177B3EE500E4D35E /* ViewController_iPad.xib */ = {
+		3FF9DFCA177B3EE500E4D35E /* PongViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3FF9DFCB177B3EE500E4D35E /* en */,
 			);
-			name = ViewController_iPad.xib;
+			name = PongViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +322,7 @@
 				3FF9DFD1177B3EE500E4D35E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
