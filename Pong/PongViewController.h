@@ -13,12 +13,12 @@
     NSTimer* timer;
     IBOutlet UILabel* timerLabel;
 }
--(void) timerUpdate;
 @property (strong, nonatomic) UIViewController* optionsViewController;
 @property (strong, nonatomic) NSTimer* timer;
 @property (strong, nonatomic) IBOutlet UILabel *timerLabel;
 
 -(IBAction)switchToOptionsView:(id)sender;
+-(void) timerUpdate;
 
 
 @end
